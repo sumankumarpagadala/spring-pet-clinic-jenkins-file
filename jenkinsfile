@@ -1,7 +1,7 @@
 node ('maven') {
     stage ('cloning source code'){
     //pulling source code from git
-    git 'https://github.com/sumankumarpagadala/spring-pet-clinic-jenkins-file.git'
+    git 'https://github.com/sumankumarpagadala/spring-petclinic.git'
     }
     stage ('building package'){
         //packaging
